@@ -1,19 +1,6 @@
-<h1 id="welcome-large">Noorem tarkvaraarendaja ja veebispetsialist</h1>
-<h3 id="welcome-small">Sisseastumiskatsed</h3>
+<h1 id="welcome-large">Noorem tarkvaraarendaja</h1>
+<h3 id="welcome-small">SISSEASTUMISKATSED</h3>
 <div class="welcome-text">
-    <p>
-        Tere tulemast Tartu Kutsehariduskeskuse noorem tarkvaraarendaja ja veebispetsialisti eriala
-        sisseastumiskatsetele!
-        Sind ootavad ees valikvastustega teoreetiline test ja praktiline test HTMLi ja CSSi kohta. Teoreetiline test
-        sisaldab
-        10 küsimust, kus igal küsimusel on ainult üks õige vastus. Praktilises ülesandes tuleb lähtuvalt ülesande sisust
-        kirjutada koodi kasutades HTMLi ja CSSi elemente. Testi lõpus näed oma tulemust ning saad suunduda
-        ingliskeelsele
-        vestlusele.
-        <?php if ($this->settings['scores'] == 1): ?>
-            Testi lõpptulemusi saate näha <a href="scores/" target="_blank">siit.</a>
-        <?php endif; ?>
-    </p>
 </div>
 <div class="center">
     <a id="start" href="#" class="btn btn-info btn-lg" data-toggle="modal"
