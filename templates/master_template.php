@@ -49,7 +49,7 @@ ___________              __           ____  __.___ ___  ____  __.
             <a href="http://khk.ee/" target="_blank"><img id="khk-logo" src="images/Logo.png" alt="logo"/></a>
         </div>
         <div>
-        <a id="log-in" href="http://localhost/at_eeltoo-master/admin" class="btn btn-info btn-lg">Logi sisse</a>
+        <a id="log-in" href="http://localhost/at_eeltoo-master/admin" class="btn btn-info btn-lg">Sisene</a>
         </div>
         <div class="navbar-form navbar-right">
             <?php if (isset($_SESSION['user_id'])): ?>
