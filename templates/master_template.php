@@ -46,7 +46,10 @@ ___________              __           ____  __.___ ___  ____  __.
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <a href="http://voco.ee/" target="_blank"><img id="khk-logo" src="images/khk_logo.png" alt="logo"/></a>
+            <a href="http://khk.ee/" target="_blank"><img id="khk-logo" src="images/Logo.png" alt="logo"/></a>
+        </div>
+        <div>
+        <a id="log-in" href="http://localhost/at_eeltoo-master/admin" class="btn btn-info btn-lg">Logi sisse</a>
         </div>
         <div class="navbar-form navbar-right">
             <?php if (isset($_SESSION['user_id'])): ?>
@@ -58,6 +61,7 @@ ___________              __           ____  __.___ ___  ____  __.
 
 
 <div class="container">
+<img src="https://voco.ee/wp-content/uploads/Artboard-66ver.svg%22">
     <!-- Main component for a primary marketing message or call to action -->
     <?php if (!file_exists("views/$controller/{$controller}_$action.php")) error_out('The view <i>views/' . $controller . '/' . $controller . '_' . $action . '.php</i> does not exist. Create that file.'); ?>
     <?php @require "views/$controller/{$controller}_$action.php"; ?>
@@ -71,7 +75,7 @@ ___________              __           ____  __.___ ___  ____  __.
         <span><a href="https://goo.gl/wGteKA" target="_blank">Kopli 1, 50115 Tartu</a></span><br/>
     </div>
     <div class="col-md-4 footer-block">
-        <span>E-post: <a href="mailto:info@voco.ee">info@khk.ee</a> </span><br/>
+        <span>E-post: <a href="mailto:info@khk.ee">info@khk.ee</a> </span><br/>
         <span>Telefon: <a href="tel:+3727361866">7 361 866</a></span><br/>
     </div>
     <div class="col-md-4 footer-block">
