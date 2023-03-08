@@ -1,12 +1,13 @@
 /************** CUSTOM CSS FOR WELCOME PAGE **********/
 body {
+    background-image: url("/images/banner-deco.png");
     background-size: cover;
     background-position: center center;
     padding-bottom: 120px;
 }
 
 #welcome-large {
-    color: #0f0f0f !important;
+    color: #000000 !important;
 }
 
 @media (min-width: 10px) and (max-width: 1200px) {
@@ -17,24 +18,28 @@ body {
 }
 
 .footer-block {
-    background: white;
+    background: black;
 }
 
 footer {
-    background: white;
+    background: black;
     font-weight: bold;
     opacity: 0.9;
 }
 
 #start {
-    background: #0f0f0f;
+    background: rgba(0, 0, 0);
     border: 1px solid white;
     color: white;
     font-size: 19px;
+    margin-top: 100px;
+    padding: 20px 32px;
+    display: inline-block;
+    border-radius: 0;
 }
 
 #start:hover {
-    background: #5A5A5A;
+    background: rgba(0, 0, 30);
     border: 1px solid white;
     color: white;
     font-size: 19px;
@@ -51,6 +56,14 @@ footer {
 
 .welcome-text {
     box-shadow: 5px 5px 3px rgba(235, 235, 235, 0.6);
+}
+
+#log-in {
+    position: relative; left: 1700px;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /**** FOOTER FIX FOR WELCOME PAGE *********/
