@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url('opensans.woff2') format('woff2');
+    src: local('Open Sans'), local('Montserrat'), url('opensans.woff2') format('woff2');
 }
 
 html {
@@ -17,9 +17,11 @@ html, body {
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 80px;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
 }
 
 .responsive {
@@ -50,8 +52,8 @@ footer {
     left: 0;
     right: 0;
     margin-bottom: -57px;
-    border-top: solid 2px #5498cb;
-    background: #fcf7cc;
+    border-top: solid 2px #f3f3f3;
+    background: #f3f3f3;
 }
 
 .modal-footer {
@@ -97,7 +99,7 @@ html {
 }
 
 .navbar-admin {
-    background: #194f72;
+    background: #050405;
     /*font-size: 18px;*/
 }
 
@@ -111,12 +113,12 @@ html {
 }
 
 .navbar-admin a:hover {
-    background: #5498cb !important;
+    background: #5b5b5e !important;
 }
 
-.navbar-nav > .active > a {
-    background: #fcf7cc !important;
-    color: grey !important;
+.navbar-admin .navbar-brand {
+    color: white !important;
+    text-shadow: none !important;
 }
 
 /************** NAVBAR END *****************/
@@ -204,7 +206,7 @@ form.form-signin {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #5498cb;
+    background-color: #050405;
     color: white;
 }
 
@@ -219,20 +221,21 @@ form.form-signin {
 
 #pushToLog {
     width: 130px;
-    border-radius: 6px;
-    background-color: #5bc0de;
-    border-color: #5bc0de;
+    background-color: #050405;
+    border-color: #050405;
     color: white;
     font-size: 18px;
     margin-bottom: 60px;
     margin-top: 30px;
     border-style: none;
     padding: 7px;
+    border-radius: 0;
+
 }
 
 #pushToLog:hover {
-    background-color: #5498cb !important;
-    border-color: #5498cb;
+    background-color: #414244 !important;
+    border-color: #58585b;
 }
 
 /************** RESULT PAGE END ****************/
@@ -371,7 +374,7 @@ form.form-signin {
 }
 
 .settings-hr {
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #4d4a4a;
 }
 
 .settings-btn {

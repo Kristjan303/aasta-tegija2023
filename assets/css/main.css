@@ -213,7 +213,7 @@ footer {
 }
 
 .question-box ul li:hover .check {
-    border: 5px solid #7db1b2;
+    border: 5px solid #011217;
 }
 
 .question-box ul li .check::before {
@@ -231,15 +231,15 @@ footer {
 }
 
 input[type=radio]:checked ~ .check {
-    border: 5px solid #7db1b2;
+    border: 5px solid #011217;
 }
 
 input[type=radio]:checked ~ .check::before {
-    background: #7db1b2;
+    background: #011217;
 }
 
 input[type=radio]:checked ~ label {
-    color: #7db1b2;
+    color: #011217;
 }
 
 .modal-title {
@@ -267,7 +267,7 @@ input[type=radio]:checked ~ label {
     text-align: center;
     padding-top: 1%;
     margin-top: -4%;
-    color: #5498cb;
+    color: #011217;
 
 }
 
@@ -447,7 +447,7 @@ mark.orange {
     padding-top: 1%;
     /*background-color: grey;*/
     margin-top: -4%;
-    color: #5498cb;
+    color: #f3f3f3;
     width: 100%;
 }
 
@@ -456,7 +456,7 @@ mark.orange {
     padding-top: 1%;
     /*background-color: grey;*/
     margin-top: -4%;
-    color: #5498cb;
+    color: #f3f3f3;
     width: 100%;
 }
 
@@ -469,7 +469,7 @@ mark.orange {
     padding-top: 1%;
     /*background-color: grey;*/
     margin-top: -4%;
-    color: #5498cb;
+    color: #f3f3f3;
     width: 100%;
 }
 
@@ -477,8 +477,8 @@ mark.orange {
 .btn {
     transition: .2s ease;
     background-color: transparent;
-    border-color: #5498cb;
-    color: #5498cb;
+    border-color: #050405;
+    color: #050405;
     border-radius: 1.5em;
     text-align: center;
     margin-top: 20px;
@@ -492,6 +492,7 @@ mark.orange {
     background-image: url("https://voco.ee/wp-content/uploads/Artboard-66ver.svg");
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: 50%;
     padding: 30px;
     max-width: 659px;
     max-height: 600px;
@@ -506,7 +507,7 @@ mark.orange {
 
 .loginmodal-container h1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: Montserrat bold;
 }
 
@@ -515,6 +516,7 @@ mark.orange {
     display: block;
     margin-bottom: 10px;
     position: relative;
+    border-radius: 0;
 }
 
 .loginmodal-container input[type=text], input[type=password] {
@@ -533,7 +535,7 @@ mark.orange {
 }
 
 .loginmodal-container input[type=text]:hover, input[type=password]:hover {
-    border: 1px solid #b9b9b9;
+    border: 1px solid #050405;
     border-top: 1px solid #a0a0a0;
     -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
